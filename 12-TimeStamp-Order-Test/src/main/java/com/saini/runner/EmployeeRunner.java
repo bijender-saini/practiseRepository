@@ -22,11 +22,20 @@ public class EmployeeRunner implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		Employee e1 = new Employee();
-
 		e1.setName("Bijender");
 		e1.setAddress("UP");
 		e1.setEscalationTime(1);
+
 System.out.println(e1);
+
+		
+			Employee e9 = new Employee();
+
+		e9.setName("Bijender");
+		e9.setAddress("UP");
+		e9.setEscalationTime(1);
+
+
 		Employee e2 = new Employee();
 
 		e2.setName("Raj");
