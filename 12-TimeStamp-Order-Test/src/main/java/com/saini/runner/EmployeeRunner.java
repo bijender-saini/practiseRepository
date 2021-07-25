@@ -24,9 +24,14 @@ public class EmployeeRunner implements CommandLineRunner {
 		Employee e1 = new Employee();
 		e1.setName("Bijender");
 		e1.setAddress("UP");
+
 		e1.setEscalationTime(1);
        System.out.println(e1);
 		
+
+		e1.setEscalationTime(1)		
+		System.out.println(e1);		
+
 	
 
 		Employee e9 = new Employee();
@@ -43,6 +48,11 @@ public class EmployeeRunner implements CommandLineRunner {
 		e10.setName("Bijender");
 		e10.setAddress("UP");
 		e10.setEscalationTime(1);
+		
+		Employee e11 = new Employee();
+		e11.setName("Bijender");
+		e11.setAddress("UP");
+		e11.setEscalationTime(1);
 
 
 
