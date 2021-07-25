@@ -26,16 +26,18 @@ public class EmployeeRunner implements CommandLineRunner {
 		e1.setAddress("UP");
 		e1.setEscalationTime(1);
        System.out.println(e1);
-
 		
-
-		System.out.println(e1);		
 	
 
 		Employee e9 = new Employee();
 		e9.setName("Bijender");
 		e9.setAddress("UP");
 		e9.setEscalationTime(1);
+		
+		Employee e12 = new Employee();
+		e12.setName("Bijender");
+		e12.setAddress("UP");
+		e12.setEscalationTime(1);
 		
 		Employee e10 = new Employee();
 		e10.setName("Bijender");
